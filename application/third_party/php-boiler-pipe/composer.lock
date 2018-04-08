@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "7a7ee830c0e56165187516724729c1d3",
+    "content-hash": "b201fb8c108cbc02d28315931ead4c00",
+    "packages": [
+        {
+            "name": "dotpack/php-boiler-pipe",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dotpack/php-boiler-pipe.git",
+                "reference": "a8663f092a93defe249506c1fb97fe096b98f6c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dotpack/php-boiler-pipe/zipball/a8663f092a93defe249506c1fb97fe096b98f6c5",
+                "reference": "a8663f092a93defe249506c1fb97fe096b98f6c5",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.0.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DotPack\\PhpBoilerPipe\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Kohlschütter",
+                    "email": "christian@kohlschutter.com"
+                },
+                {
+                    "name": "Ilia Ermolin",
+                    "email": "dotpack@gmail.com"
+                }
+            ],
+            "description": "PhpBoilerPipe. Boilerplate Removal and Fulltext Extraction from HTML pages",
+            "keywords": [
+                "extract",
+                "html"
+            ],
+            "time": "2015-08-05 08:48:05"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "dotpack/php-boiler-pipe": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

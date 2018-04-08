@@ -1,0 +1,38 @@
+[
+    {
+        "name": "zackslash/php-web-article-extractor",
+        "version": "0.1.2",
+        "version_normalized": "0.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zackslash/PHP-Web-Article-Extractor.git",
+            "reference": "bbc2be96590f0a8bd29b52b44108ad4931a452fc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/zackslash/PHP-Web-Article-Extractor/zipball/bbc2be96590f0a8bd29b52b44108ad4931a452fc",
+            "reference": "bbc2be96590f0a8bd29b52b44108ad4931a452fc",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "3.7.*"
+        },
+        "time": "2015-10-04 13:33:13",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "WebArticleExtractor\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Web Article Extractor",
+        "homepage": "https://github.com/zackslash/php-web-article-extractor"
+    }
+]

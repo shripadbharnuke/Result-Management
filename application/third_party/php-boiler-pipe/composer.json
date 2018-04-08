@@ -1,0 +1,5 @@
+{
+	"require":{
+		"dotpack/php-boiler-pipe": "dev-master"
+	}
+}
